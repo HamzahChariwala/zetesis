@@ -1,0 +1,9 @@
+[project]
+name = "zetesis-inference"
+version = "0.1.0"
+description = "Pluggable inference backends for Zetesis"
+requires-python = ">=3.11"
+dependencies = [
+    "zetesis-core",
+    "mlx-lm>=0.19",
+]

@@ -1,0 +1,14 @@
+[project]
+name = "zetesis-server"
+version = "0.1.0"
+description = "Zetesis API server and queue orchestration"
+requires-python = ">=3.11"
+dependencies = [
+    "zetesis-core",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.27",
+    "sqlalchemy[asyncio]>=2.0",
+    "asyncpg>=0.29",
+    "alembic>=1.13",
+    "pgvector>=0.3",
+]
